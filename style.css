@@ -2,5 +2,15 @@ body {
 	text-align: center;
 }
 p {
-font-weight: bold;
+	font-weight: bold;
+}
+ul {
+display: inline-block;
+margin-top: 0;
+}
+li {
+text-align: left;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        margin-right:10px;
 }
